@@ -1,11 +1,5 @@
 const box = document.querySelectorAll('.box')
 
-// box.addEventListener('click', () => {
-//     if(box.style.background == 'white') {
-//         box.style.background = 'blue'
-//     }
-// })
-
 box.forEach(el => {
     el.addEventListener('click', () => {
         // el.style.background = 'red'
